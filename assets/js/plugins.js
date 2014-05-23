@@ -3,8 +3,7 @@
  */
 
 /*fancybox*/
-;
-(function (e, t, n, r) {
+;(function (e, t, n, r) {
     var i = n("html"), s = n(e), o = n(t), u = n.fancybox = function () {
         u.open.apply(this, arguments)
     }, a = navigator.userAgent.match(/msie/i), f = null, l = t.createTouch !== r, c = function (e) {
