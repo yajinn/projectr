@@ -8,6 +8,7 @@ $(document).ready(function () {
     site.placeholder();
     site.tooltip();
     site.modal();
+    site.alert("Fallr kullanım örneği, detaylı bilgi için Yasin'e müracaat ediniz");
 });
 
 site = {
@@ -32,8 +33,16 @@ site = {
             minHeight: 550,
             padding: 0
         });
+    },
+    //ALERT FUNCTION
+    alert:function(message){
+        $.fallr('show', {
+            closeKey        : true,
+            closeOverlay    : true,
+            content         : '<p>'+ message +'</p>',
+            icon            : 'info'
+        });
     }
-
 }
 home = {
 

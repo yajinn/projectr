@@ -120,79 +120,79 @@
 
 #fallr th { background-color:#cecece; background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#ececec), to(#cecece)); background-image:-moz-linear-gradient(#ececec, #cecece); background-image:-o-linear-gradient(#ececec, #cecece); background-image:linear-gradient(#ececec, #cecece) }
 
-.icon-calendar { background:url(/content/img/icons/calendar.png) }
+.icon-calendar { background:url(../img/icons/calendar.png) }
 
-.icon-chat { background:url(/content/img/icons/chat.png) }
+.icon-chat { background:url(../img/icons/chat.png) }
 
-.icon-check { background:url(/content/img/icons/check.png) }
+.icon-check { background:url(../img/icons/check.png) }
 
-.icon-config { background:url(/content/img/icons/wrench.png) }
+.icon-config { background:url(../img/icons/wrench.png) }
 
-.icon-error { background:url(/content/img/icons/error.png) }
+.icon-error { background:url(../img/icons/error.png) }
 
-.icon-pen { background:url(/content/img/icons/pen.png) }
+.icon-pen { background:url(../img/icons/pen.png) }
 
-.icon-help { background:url(/content/img/icons/help.png) }
+.icon-help { background:url(../img/icons/help.png) }
 
-.icon-info { background:url(/content/img/icons/info.png) }
+.icon-info { background:url(../img/icons/info.png) }
 
-.icon-lamp { background:url(/content/img/icons/lamp.png) }
+.icon-lamp { background:url(../img/icons/lamp.png) }
 
-.icon-mail { background:url(/content/img/icons/mail.png) }
+.icon-mail { background:url(../img/icons/mail.png) }
 
-.icon-photo { background:url(/content/img/icons/camera.png) }
+.icon-photo { background:url(../img/icons/camera.png) }
 
-.icon-secure { background:url(/content/img/icons/unlock.png) }
+.icon-secure { background:url(../img/icons/unlock.png) }
 
-.icon-trash { background:url(/content/img/icons/trash.png) }
+.icon-trash { background:url(../img/icons/trash.png) }
 
-.icon-up { background:url(/content/img/icons/up.png) }
+.icon-up { background:url(../img/icons/up.png) }
 
-.icon-down { background:url(/content/img/icons/down.png) }
+.icon-down { background:url(../img/icons/down.png) }
 
-.icon-left { background:url(/content/img/icons/left.png) }
+.icon-left { background:url(../img/icons/left.png) }
 
-.icon-right { background:url(/content/img/icons/right.png) }
+.icon-right { background:url(../img/icons/right.png) }
 
-.icon-at { background:url(/content/img/icons/at.png) }
+.icon-at { background:url(../img/icons/at.png) }
 
-.icon-bar { background:url(/content/img/icons/bars.png) }
+.icon-bar { background:url(../img/icons/bars.png) }
 
-.icon-book { background:url(/content/img/icons/book.png) }
+.icon-book { background:url(../img/icons/book.png) }
 
-.icon-chart { background:url(/content/img/icons/chart.png) }
+.icon-chart { background:url(../img/icons/chart.png) }
 
-.icon-clock { background:url(/content/img/icons/clock.png) }
+.icon-clock { background:url(../img/icons/clock.png) }
 
-.icon-gear { background:url(/content/img/icons/cog.png) }
+.icon-gear { background:url(../img/icons/cog.png) }
 
-.icon-document { background:url(/content/img/icons/document.png) }
+.icon-document { background:url(../img/icons/document.png) }
 
-.icon-folder { background:url(/content/img/icons/folder.png) }
+.icon-folder { background:url(../img/icons/folder.png) }
 
-.icon-heart { background:url(/content/img/icons/heart.png) }
+.icon-heart { background:url(../img/icons/heart.png) }
 
-.icon-home { background:url(/content/img/icons/home.png) }
+.icon-home { background:url(../img/icons/home.png) }
 
-.icon-key { background:url(/content/img/icons/key.png) }
+.icon-key { background:url(../img/icons/key.png) }
 
-.icon-magnifier { background:url(/content/img/icons/magnifier.png) }
+.icon-magnifier { background:url(../img/icons/magnifier.png) }
 
-.icon-pin { background:url(/content/img/icons/pin.png) }
+.icon-pin { background:url(../img/icons/pin.png) }
 
-.icon-minus { background:url(/content/img/icons/minus.png) }
+.icon-minus { background:url(../img/icons/minus.png) }
 
-.icon-window { background:url(/content/img/icons/window.png) }
+.icon-window { background:url(../img/icons/window.png) }
 
-.icon-plus { background:url(/content/img/icons/plus.png) }
+.icon-plus { background:url(../img/icons/plus.png) }
 
-.icon-reload { background:url(/content/img/icons/reload.png) }
+.icon-reload { background:url(../img/icons/reload.png) }
 
-.icon-quote { background:url(/content/img/icons/quote.png) }
+.icon-quote { background:url(../img/icons/quote.png) }
 
-.icon-star { background:url(/content/img/icons/star.png) }
+.icon-star { background:url(../img/icons/star.png) }
 
-.icon-tag { background:url(/content/img/icons/tag.png) }
+.icon-tag { background:url(../img/icons/tag.png) }
 
 /*tipsy*/
 .tipsy { font-size:10px; position:absolute; padding:5px; z-index:100000; font-family:arial; }
