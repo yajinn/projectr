@@ -1,0 +1,40 @@
+/*
+*   Author: Yasin Coşkun
+* 	Bu css dosyasında kullandığımız cssler tanımlamalarımız bir kısmı tüm çalışmalarda kullanabileceğimiz diğer kısmı projeye özel
+*	olarak düşünülmektedir, bunlarıda less aktarıp değişkenlere çevireceğim
+*	[1] Reset.css veya normalize.css kullanılabilir
+*	[2] Helpers - floatlar, clearfix
+*	[3]	Background & Color projede kullanılan renklere göre tanımlanmalı
+*	[4] Border & Shadows projede kullanılan renklere göre tanımlanmalı
+*	[5] Grid & Box	projede kullanılan renklere göre tanımlanmalı
+*/
+
+/*================================================
+	INDEX
+	[1] Reset & Normalize
+	[2] Helpers
+	[3] Margin & Padding
+	[4] Background & Color
+	[5] Border & Shadows
+	[6] Grid & Box
+================================================*/
+
+/*================================================
+	[1] Reset & Normalize
+================================================*/
+
+/*================================================
+	[2] Helpers
+================================================*/
+
+/*================================================
+	[3] Margin & Padding
+================================================*/
+
+/*================================================
+	[4] Background & Color
+================================================*/
+
+/*================================================
+	[5] Border & Shadows
+================================================*/

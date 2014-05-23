@@ -1,0 +1,41 @@
+/*
+*	Form öğlerini bu dosyada tanımlayıp attirubelarını ayrı ayrı classlarda tanımlayacağız
+*/
+
+/*===================================================
+	BUTTONS
+===================================================*/
+.btn { display:inline-block; cursor:pointer; text-decoration:none; border:0; }
+
+/*button sizes*/
+.btn-xl { }
+
+.btn-l { }
+
+.btn-m { }
+
+.btn-s { }
+
+.btn-xs { }
+
+/*button colors*/
+.btn-green { }
+
+.btn-red { }
+
+.btn-color1 { }
+
+.btn-color2 { }
+
+/*custom buttons*/
+.btn-custom1 { }
+
+.btn-custom2 { }
+
+/*===================================================
+	INPUTS & TEXTAREAS
+===================================================*/
+
+/*===================================================
+	SELECTS
+===================================================*/
