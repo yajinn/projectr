@@ -22,19 +22,137 @@
 /*================================================
 	[1] Reset & Normalize
 ================================================*/
-
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
 /*================================================
 	[2] Helpers
 ================================================*/
-.browsehappy {margin: 0.2em 0;	background: #ccc;	color: #000;	padding: 0.2em 0;}
+a{text-decoration: none;  color:#000000;}
+:focus { outline: 0;}
+ul li{list-style: none;}
+ul{margin:0;}
 
+.page-wrapper{ margin:0; padding:0;}
+.clearfix:before,
+.clearfix:after {content: " ";display: table;}
+.clearfix:after {clear: both;}
+.clearfix {*zoom: 1;}
+
+.fl{ float:left;}
+.fr{ float:right;}
+.fn{float:none;}
+
+.db{ display:block;}
+.di{ display:inline;}
+.dib{ display:inline-block;}
+
+.clb{ clear:both;}
+
+.tac{text-align:center}
+.tar{text-align:right}
+.tal{text-align:left}
+.taj{text-align:justify}
+
+.posr{position:relative;}
+.posa{position:absolute}
+.posf{position:fixed}
+.poss{position:static}
+
+.ovh{overflow:hidden}
+.ovv{overflow:visible}
+.ovs{overflow:scroll}
+
+.curp{ cursor:pointer;}
+.curd{ cursor:default;}
+
+.browsehappy {margin: 0.2em 0;	background: #ccc;	color: #000;	padding: 0.2em 0;}
 /*================================================
 	[3] Margin & Padding
 ================================================*/
+/*padding*/
+.p0 { padding: 0}
+.p5 { padding: 5px }
+.p10 { padding: 10px }
+.p15 { padding: 15px }
+.p20 { padding: 20px }
+
+.pt0 { padding-top: 0}
+.pt5 { padding-top: 5px }
+.pt10 { padding-top: 10px }
+.pt15 { padding-top: 15px }
+.pt20 { padding-top: 20px }
+
+.pr0 { padding-right: 0}
+.pr5 { padding-right: 5px }
+.pr10 { padding-right: 10px }
+.pr15 { padding-right: 15px }
+.pr20 { padding-right: 20px }
+
+.pb0 { padding-bottom: 0}
+.pb5 { padding-bottom: 5px }
+.pb10 { padding-bottom: 10px }
+.pb15 { padding-bottom: 15px }
+.pb20 { padding-bottom: 20px }
+
+.pl0 { padding-left: 0}
+.pl5 { padding-left: 5px }
+.pl10 { padding-left: 10px }
+.pl15 { padding-left: 15px }
+.pl20 { padding-left: 20px }
+
+
+/*margin*/
+.m0 { margin: 0 }
+.m5 { margin: 5px }
+.m10 { margin: 10px }
+.m15 { margin: 15px }
+.m20 { margin: 20px }
+
+.mt0 { margin-top: 0}
+.mt5 { margin-top: 5px }
+.mt10 { margin-top: 10px }
+.mt15 { margin-top: 15px }
+.mt20 { margin-top: 20px }
+
+.mr0 { margin-right: 0 }
+.mr5 { margin-right: 5px }
+.mr10 { margin-right: 10px }
+.mr15 { margin-right: 15px }
+.mr20 { margin-right: 20px }
+
+.mb0 { margin-bottom: 0}
+.mb5 { margin-bottom: 5px }
+.mb10 { margin-bottom: 10px }
+.mb15 { margin-bottom: 15px }
+.mb20 { margin-bottom: 20px }
+
+.ml0 { margin-left: 0}
+.ml5 { margin-left: 5px }
+.ml10 { margin-left: 10px }
+.ml15 { margin-left: 15px }
+.ml20 { margin-left: 20px }
+
+.m0a { margin: 0 auto }
+.m5a { margin: 5px auto }
+.m10a { margin: 10px auto }
+.m15a { margin: 15px auto }
+.m20a { margin: 20px auto }
+
+.m0-5 { margin: 0 5px }
+.m0-10 { margin: 0 10px }
+.m0-15 { margin: 0 15px }
+.m0-20 { margin: 0 20px }
 
 /*================================================
 	[4] Background & Color
 ================================================*/
+/*color*/
+.c0 { color: #000 }
+.c1 { color: #fff }
+
+/*background*/
+.bg0 { background: #000 }
+.bg1 { background: #fff }
 
 /*================================================
 	[5] Border & Shadows

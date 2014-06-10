@@ -90,3 +90,13 @@
 .fz36 { font-size:36px; }
 
 .fz40 { font-size:40px; }
+
+/*FONT ATTRIBUTES*/
+.fwb { font-weight:bold; }
+
+.fwn { font-weight:normal; }
+
+.fsn { font-style:normal; }
+
+.fsi { font-style:italic; }
+
