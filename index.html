@@ -62,16 +62,12 @@
     <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="assets/js/plugins.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
-
-    <!-- ie10 condition comment  add-->
-    <!--[if !IE]><!-->
-        <script>if (/*@cc_on!@*/false) {document.documentElement.className += 'ie ie10';}</script>
-    <!--<![endif]-->
-
+    <!--i10 & ie11  -->
     <script>
-        //TODO test et!
         var isIE11 = '-ms-scroll-limit' in document.documentElement.style && '-ms-ime-align' in document.documentElement.style;
-        if(isIE11){document.documentElement.className += 'ie ie11';}
+        if (isIE11) { document.documentElement.className += 'ie ie11'; }
+        var isIE10 = 'behavior' in document.documentElement.style && '-ms-user-select' in document.documentElement.style;
+        if (isIE10) { document.documentElement.className += 'ie ie10'; }
     </script>
 
     <!--[if lt IE 9]>
